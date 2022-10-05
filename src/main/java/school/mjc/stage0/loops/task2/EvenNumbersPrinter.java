@@ -6,5 +6,6 @@ public class EvenNumbersPrinter {
         while(count<printTillInclusive){
             System.out.println(count);
             count+=2;
+        }
     }
 }
