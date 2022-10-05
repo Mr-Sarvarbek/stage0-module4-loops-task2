@@ -8,8 +8,5 @@ public class FactorialNumbers {
             count++;
             System.out.println(p);
             }
-
     }
-    System.out.println(p);
-    
 }
