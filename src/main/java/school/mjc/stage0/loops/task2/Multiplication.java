@@ -5,7 +5,7 @@ public class Multiplication {
          int s=0,i=0;
         while(multilyByAndToInclusive!=i){
             System.out.println(s);
-            s+=multilyByAndToInclusive;
+            s=s+multilyByAndToInclusive;
             if(multilyByAndToInclusive>0)
                 i++;
             else
