@@ -4,7 +4,7 @@ public class PrimeNumbers {
     public void printPrimeNumbers(int printToInclusive) {
         count=0;
         while(count!=printToInclusive){
-            System.out.println(count)
+            System.out.println(count);
                 count++;
         }
     }
