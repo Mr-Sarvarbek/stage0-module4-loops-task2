@@ -6,5 +6,6 @@ public class Multiplication {
         while(multilyByAndToInclusive!=0){
             s=s*multilyByAndToInclusive;
             multilyByAndToInclusive--;
-    }
+         }
+        System.out.println(s);
 }
