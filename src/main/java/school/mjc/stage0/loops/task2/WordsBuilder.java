@@ -1,16 +1,13 @@
 package school.mjc.stage0.loops.task2;
 
-import school.mjc.stage0.base.BaseIOTest;
-import org.junit.jupiter.api.Test;
+public class WordsBuilder {
+    public void buildPhrase(char... chars) {
+        int i = 0;
+        while(i<chars.length)
+        {
+            System.out.print(chars[i]);
+            i++;
+        }
 
-class WordsBuilderTest extends BaseIOTest {
-
-//     @Test
-    void buildPhraseBuildsAPhrase() {
-        WordsBuilder builder = new WordsBuilder();
-
-        builder.buildPhrase('l', 'o', 'o', 'p', 's', ' ', 'a', 'r', 'e', ' ', 'c', 'o', 'o', 'l');
-
-        assertOutEquals("loops are cool");
     }
 }
